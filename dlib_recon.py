@@ -5,7 +5,7 @@ import dlib
 from scipy.spatial import distance
 import time
 
-person_desc = []
+
 img_descriptor = []
 detector = dlib.cnn_face_detection_model_v1("mmod_human_face_detector.dat")
 sp = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
